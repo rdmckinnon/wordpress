@@ -7,10 +7,16 @@
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>css/skel.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>css/style.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>css/style-wide.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>css/style-normal.css" />
+		
+	
+	<noscript>
+			<link rel="stylesheet" href="skel.css" />
+			<link rel="stylesheet" href="style.css" />
+			<link rel="stylesheet" href="style-wide.css" />
+			<link rel="stylesheet" href="style-normal.css" />
+	</noscript>
+	   	
+	   	
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,26 +35,22 @@
 	</head>
 	<body <?php body_class(); ?>>
 
-		<!-- wrapper -->
-		<div class="wrapper">
+		<!-- Header -->
+			<header id="header">
 
-			<!-- header -->
-			<header class="header clear" role="banner">
-
-					<!-- logo -->
-					<div class="logo">
-						<a href="<?php echo home_url(); ?>">
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
-						</a>
-					</div>
-					<!-- /logo -->
-
-					<!-- nav -->
-					<nav class="nav" role="navigation">
-						<?php html5blank_nav(); ?>
+				<!-- Logo -->
+					<h1 id="logo">2015</h1>
+				
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#three">Faith</a></li>
+							<li><a href="#four">Code</a></li>
+							<li><a href="#five">Stress</a></li>
+							<li><a href="#six">Health</a></li>
+							<li><a href="#seven">Giving</a></li>
+							<li><a href="#eight">Thanks</a></li>
+						</ul>
 					</nav>
-					<!-- /nav -->
 
 			</header>
-			<!-- /header -->
